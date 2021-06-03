@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".activities.MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvItems"
@@ -20,7 +20,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="0dp"
-        android:text="add" />
+        android:text="@string/main_button" />
 
     <EditText
         android:id="@+id/etItems"
@@ -33,7 +33,7 @@
         android:layout_marginBottom="0dp"
         android:layout_toStartOf="@+id/btnAdd"
         android:ems="10"
-        android:hint="Enter item here!"
+        android:hint="@string/main_hint"
         android:inputType="textPersonName" />
 
 </RelativeLayout>

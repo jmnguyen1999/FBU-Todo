@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".EditActivity">
+    tools:context=".activities.EditActivity">
 
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Edit the Item"
+        android:text="@string/edit_title"
         android:textAlignment="center"
         android:textSize="36sp" />
 
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:ems="10"
-        android:hint="Edit here"
+        android:hint="@string/edit_hint"
         android:inputType="textPersonName" />
 
     <Button
@@ -31,6 +31,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"
-        android:text="Done" />
+        android:text="@string/edit_button" />
 
 </LinearLayout>

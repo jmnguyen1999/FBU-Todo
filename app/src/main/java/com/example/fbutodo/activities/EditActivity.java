@@ -1,4 +1,4 @@
-package com.example.fbutodo;
+package com.example.fbutodo.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.example.fbutodo.R;
 
 public class EditActivity extends AppCompatActivity {
     private static final String KEY_ITEM = "itemToEdit";

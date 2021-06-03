@@ -1,11 +1,10 @@
-package com.example.fbutodo;
+package com.example.fbutodo.activities;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.ClipData;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -14,6 +13,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.fbutodo.R;
 import com.example.fbutodo.adapters.ItemsAdapter;
 
 import org.apache.commons.io.FileUtils;

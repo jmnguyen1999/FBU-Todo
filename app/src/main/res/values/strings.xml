@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">FBU Todo</string>
+    <string name="app_name">FBU Todo App</string>
+    <string name="main_button">Add</string>
+    <string name="main_hint">Enter item here!</string>
+    <string name="edit_title">Edit Item</string>
+    <string name="edit_hint">Edit here</string>
+    <string name="edit_button">Done</string>
 </resources>
